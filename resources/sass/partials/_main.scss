@@ -1,1 +1,11 @@
-
+main {
+    background-color: $bgc-main;
+    img {
+        height: 250px;
+    }
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

@@ -4,3 +4,38 @@
   box-sizing: border-box;
 }
 
+header img {
+  display: block;
+  margin: auto;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  list-style: none;
+  text-transform: uppercase;
+  padding: 0px 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  background-color: rgba(169, 218, 238, 0.6);
+}
+
+main img {
+  height: 250px;
+}
+
+main .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+

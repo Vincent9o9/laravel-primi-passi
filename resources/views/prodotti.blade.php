@@ -140,18 +140,12 @@ foreach ($cards as $card) {
 
 @endphp
 
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-        <title>La Molisana</title>
-    </head>
-    <body>
+        @extends('layout.app')
 
-        @include('partials.header')
+        @section('titolo', 'Prodotti Molisana')
 
-        <main>
+
+            @section('main')
             <div class="cards">
                 <h2>Le lunghe</h2>
                 @foreach ($lunghe as $card)
@@ -175,7 +169,4 @@ foreach ($cards as $card) {
                     </div>
                 @endforeach
             </div>
-        </main>
-
-    </body>
-</html>
+            @endsection
