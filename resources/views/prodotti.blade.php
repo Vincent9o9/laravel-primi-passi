@@ -17,22 +17,26 @@ foreach ($cards as $card) {
     @extends('layout.app')
     @section('titolo', 'Prodotti Molisana')
     @section('main')
+        <h2>Le lunghe</h2>
         <div class="cards">
-            <h2>Le lunghe</h2>
             @foreach ($lunghe as $card)
                 <div class="card">
                     <h3>{{ $card['titolo'] }}</h3>
                     <img src="{{ $card['src'] }}" alt="{{ $card['titolo'] }}">
                 </div>
             @endforeach
+        </div>
             <h2>Le corte</h2>
+        <div class="cards">
             @foreach ($corte as $card)
                 <div class="card">
                     <h3>{{ $card['titolo'] }}</h3>
                     <img src="{{ $card['src'] }}" alt="{{ $card['titolo'] }}">
                 </div>
             @endforeach
+        </div>
             <h2>Le cortissime</h2>
+        <div class="cards">
             @foreach ($cortissime as $card)
                 <div class="card">
                     <h3>{{ $card['titolo'] }}</h3>

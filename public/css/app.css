@@ -36,6 +36,12 @@ main img {
 main .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+}
+
+main .card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 15px;
 }
 
