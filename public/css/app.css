@@ -27,10 +27,17 @@ header nav ul li a {
 
 main {
   background-color: rgba(169, 218, 238, 0.6);
+  padding: 0 50px;
 }
 
 main img {
   height: 250px;
+}
+
+main h2 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 main .cards {

@@ -1,7 +1,13 @@
 main {
     background-color: $bgc-main;
+    padding: 0 50px;
     img {
         height: 250px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 40px;
+        text-transform: uppercase;
     }
     .cards {
         display: flex;
